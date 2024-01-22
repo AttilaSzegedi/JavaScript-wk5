@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  /*to override the basic broser margin 8 px*/
+  font-family:  Helvetica, sans-serif, Arial;
+}
+
+.header {
+ background-color: aquamarine;
+ color:;
+ display: flex;
+ flex-flow: row;
+ /*to show ul and button (items) in a row base*/
+ justify-content:space-between;
+ /*to space ul and button (items) front and back*/
+ padding: 0 16px;
+ height: 50px;
+ align-items: center;
+ 
+}
+
+ul {
+    list-style-type: none;
+    /*turn off the marker*/
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    /* put to flex itmes*/
+    flex-flow: row;
+    /*put in  raw*/
+    justify-content: space-evenly;
+}
+
+li{
+    margin-right: 15px;
+    /*make margin between the li items*/
+}
+.frame{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 28%;
+    border: 1px solid ;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+;
+}
+.card > img{
+    width: 100%;
+    min-width: 250px;
+    height: 280px;
+}
+
+button {
+  border-radius: 5px;
+  background-color: blue;
+  font-style: italic;
+  color: white;
+  margin: 5px;
+}
+
+.footer {
+    background-color: aquamarine;
+    color: white;
+    height: 50px;
+    padding: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
